@@ -1,0 +1,102 @@
+* PRIMERA CLASE *
+
+CONFIGURACIÓN DE GIT
+
+git config --global user.name "Tu Nombre de usuario"
+Define tu nombre en los commits.
+
+git config --global user.email "tuemail@gmail.com"
+Define tu email en los commits.
+
+git config --list
+Muestra la configuración.
+
+INICIAR REPOSITORIO LOCAL
+
+git init
+Convierte la carpeta en repositorio Git.
+
+git status
+Muestra el estado de los archivos.
+
+PREPARAR ARCHIVOS
+
+git add nombre_archivo
+Prepara un archivo.
+
+git add .
+Prepara todos los archivos.
+
+GUARDAR CAMBIOS
+
+git commit -m "mensaje"
+Guarda cambios en el historial.
+
+CONECTAR CON GITHUB
+
+git remote add origin https://github.com/macarenaquisbert/CURSO-REACT.git 
+Conecta con repositorio remoto.
+
+git remote -v
+Verifica la conexión.
+
+git branch -M main
+Define rama principal.
+
+SUBIR A GITHUB
+
+git push -u origin main
+Sube y vincula rama.
+
+git push
+Sube cambios nuevos.
+
+TRAER CAMBIOS
+
+git pull
+Descarga cambios del repo remoto.
+
+CLONAR EN OTRA PC
+
+git clone URL
+Descarga el repositorio y crea la carpeta.
+
+--------------------------------------------------------------------------------------
+POWERSHELL — COMANDOS BÁSICOS DE CARPETAS
+
+IR AL ESCRITORIO
+
+cd Desktop
+Cambia a la carpeta Escritorio.
+
+cd ~/Desktop
+También cambia al Escritorio (ruta directa del usuario).
+
+pwd
+Muestra en qué carpeta estás.
+
+CREAR CARPETA
+
+mkdir nombre_carpeta
+Crea una carpeta.
+
+New-Item -ItemType Directory -Name nombre_carpeta
+Crea una carpeta indicando tipo directorio.
+
+VERIFICAR QUE EXISTE
+
+ls
+Lista archivos y carpetas del lugar actual.
+
+dir
+Hace lo mismo que ls.
+
+ENTRAR EN LA CARPETA
+
+cd nombre_carpeta
+Entra en la carpeta.
+
+VOLVER ATRÁS
+
+cd ..
+Vuelve a la carpeta anterior.
