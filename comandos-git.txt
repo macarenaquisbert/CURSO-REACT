@@ -60,7 +60,20 @@ CLONAR EN OTRA PC
 
 git clone URL
 Descarga el repositorio y crea la carpeta.
+--------------------------------------------------------------------------------------
+SUBIR CAMBIOS A GIT (cuando agregaste algo a un archivo)
 
+git status
+Verifica qué archivos cambiaron.
+
+git add .
+Prepara los cambios.
+
+git commit -m "actualizo archivo"
+Guarda los cambios en Git.
+
+git push
+Sube los cambios a GitHub.
 --------------------------------------------------------------------------------------
 POWERSHELL — COMANDOS BÁSICOS DE CARPETAS
 
