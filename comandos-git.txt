@@ -61,6 +61,30 @@ CLONAR EN OTRA PC
 git clone URL
 Descarga el repositorio y crea la carpeta.
 --------------------------------------------------------------------------------------
+
+BAJAR TU REPOSITORIO AL ESCRITORIO (Git Bash en otra PC)
+
+IR AL ESCRITORIO
+
+cd ~/Desktop
+Te ubica en el Escritorio.
+
+VERIFICAR UBICACIÓN
+
+pwd
+Confirma que estás en Desktop.
+
+CLONAR TU REPOSITORIO
+
+git clone (https://github.com/macarenaquisbert/CURSO-REACT.git)
+Descarga el repo y crea la carpeta en el Escritorio.
+
+ENTRAR EN LA CARPETA
+
+cd CURSO-REACT
+Entrás a tu proyecto.
+
+--------------------------------------------------------------------------------------
 SUBIR CAMBIOS A GIT (cuando agregaste algo a un archivo)
 
 git status
@@ -75,6 +99,8 @@ Guarda los cambios en Git.
 git push
 Sube los cambios a GitHub.
 --------------------------------------------------------------------------------------
+
+
 POWERSHELL — COMANDOS BÁSICOS DE CARPETAS
 
 IR AL ESCRITORIO
