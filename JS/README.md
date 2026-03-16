@@ -1,3 +1,56 @@
+las funciones son como *"recetas" o bloques de código que guardas para usar* muchas veces sin tener que escribir lo mismo una y otra vez.
+
+Imaginemos que una función es una máquina: le das algo (entrada), hace un proceso, y te devuelve un resultado (salida).
+
+## 1. Estructura básica
+Para declarar una función tradicional, usamos la palabra reservada function:
+
+*JavaScript*
+function saludar(nombre) {
+    return "Hola, " + nombre + "!";
+}
+
+// Así la usas (llamar a la función):
+console.log(saludar("Maky")); // Resultado: "Hola, Maky!"
+Nombre (saludar): Cómo identificas a la máquina.
+
+Parámetros (nombre): La variable que recibe la función (la "materia prima").
+
+Cuerpo ({ ... }): Lo que pasa adentro.
+
+*return: El resultado final que la función te entrega. ¡Ojo! Si no pones return, la función hace el trabajo pero no te devuelve nada.*
+
+## 2. Funciones de Flecha (Arrow Functions)
+Como estás en un curso de React, verás mucho más esta forma. Es más corta y moderna:
+
+*JavaScript*
+const sumar = (a, b) => {
+    return a + b;
+};
+
+// Si es de una sola línea, es aún más corta:
+const multiplicar = (a, b) => a * b;
+
+## 3. ¿Por qué son clave en React?
+En React, casi todo son funciones. Los Componentes son funciones que, en lugar de devolver un número o un texto, devuelven HTML (JSX).
+
+*JavaScript*
+function BotonSaludar() {
+    return (
+        <button onClick={() => alert("¡Hola!")}>
+            Haz click aquí
+        </button>
+    );
+}
+Diferencia entre Parámetros y Argumentos
+A veces nos confundimos, pero es fácil:
+
+**Parámetro: Es el nombre de la "cajita" cuando creas la función (nombre).**
+
+**Argumento: Es el valor real que metes en la cajita cuando la usas ("Maky").**
+
+--- 
+
 # 🚀 Entendiendo la POO: De Moldes a Personajes
 
 La **Programación Orientada a Objetos** es un paradigma que nos ayuda a organizar el código pensando en objetos de la vida real.
@@ -21,10 +74,6 @@ del mismo molde que los demás.
 ### 3. La Herencia (Evolución)
 Ahora querés crear un **Aldeano Guerrero**. No necesitás empezar de cero. "Heredás" todo
 lo del aldeano normal (nombre, ropa) y solo le agregás lo nuevo: **una espada**.
-
-
-
-[Image of object oriented programming inheritance diagram]
 
 
 ---
@@ -90,7 +139,7 @@ console.log(userNo.mostrarEstado());
 
 ---
 
-** 🔑 Tips para no olvidarte:**
+*🔑 Tips para no olvidarte:*
 
 ## Resumen de palabras clave
 
